@@ -9,7 +9,7 @@ Before the lectures, make sure that you have R and RStudio installed and working
 **NB!** If you have a computer owned by your university with a windows operating system it's a good idea to have your IT department install R and RStudio. And very important: make sure that R-packages will be installed locally and not on any remote drive (e.g. by changing the default `.libPaths()`).
 
 When you have everything up and running it should look something like this:
-![RStudio](rstudio.png)  
+![RStudio](images/rstudio.png)  
 
   
   
