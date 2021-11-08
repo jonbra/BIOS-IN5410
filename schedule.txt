@@ -1,0 +1,14 @@
+Day 1
+- Set up and get started - 09:15-09:30
+- Introduction to R and RStudio - 09:30-10:00
+- Basic exercises / play around - 10:15 - 10:45
+
+Read files
+
+Work with tabular data
+
+Write files
+
+Simple plots
+
+Day 2
