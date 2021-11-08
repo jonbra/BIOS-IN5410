@@ -4,13 +4,11 @@ Day 1
   (RStudio can also be used as a text editor for plain text files)
   (R system command - remember their Unix lectures?)
   (R and packages - where can they find packages and help? Show the usual help web sites)
-- Basic exercises / play around / start a new project from their GitHub repo / install tidyverse before brake - 10:15 - 10:45
+- Basic exercises / play around / start a new project from their GitHub repo / install tidyverse before brake - 10:15 - 11:00
 
-Read files
+Reading and writing files
 
-Work with tabular data
-
-Write files
+Working with tabular data
 
 Simple plots
 
