@@ -12,3 +12,12 @@ Write files
 Simple plots
 
 Day 2
+
+Programming basics
+  for loops
+  if statements (lecture about logical values)
+  functions?
+
+Plotting with ggplot2
+
+More advanced tidyverse-stuff? pivot wide and long? Etc.? Prepare for RNA-seq lectures
