@@ -6,11 +6,13 @@ Day 1
   (R and packages - where can they find packages and help? Show the usual help web sites)
 - Basic exercises / play around / start a new project from their GitHub repo / install tidyverse before brake - 10:15 - 11:00
 
-Reading and writing files
+Reading and writing files 11:15 - 12:00
+- Short lecture
+- Practical
 
-Working with tabular data
+Working with tabular data 13:15 - 14:00
 
-Simple plots
+Simple plots 14:00 - 15:00 (16:00?)
 
 Day 2
 
