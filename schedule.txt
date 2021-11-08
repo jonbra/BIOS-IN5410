@@ -6,11 +6,13 @@ Day 1
   (R and packages - where can they find packages and help? Show the usual help web sites)
 - Basic exercises / play around / start a new project from their GitHub repo / install tidyverse before brake - 10:15 - 11:00
 
-Reading and writing files 11:15 - 12:00
+Reading and writing files 11:15 - 11:45
 - Short lecture
 - Practical
 
-Working with tabular data 13:15 - 14:00
+Working with tabular data + basic data structures 11:45 - 14:00
+(Read file from here: https://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/index.html)
+(Use dplyr commands to extract columns and talk about the different data types in R)
 
 Simple plots 14:00 - 15:00 (16:00?)
 
