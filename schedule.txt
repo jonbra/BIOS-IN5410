@@ -4,6 +4,8 @@ Day 1
   (RStudio can also be used as a text editor for plain text files)
   (R system command - remember their Unix lectures?)
   (R and packages - where can they find packages and help? Show the usual help web sites)
+  (Tidyverse and Bioconductor)
+  (CRAN is the place for most packages - demo in RStudio)
 - Basic exercises / play around / start a new project from their GitHub repo / install tidyverse before brake - 10:15 - 11:00
 
 Reading and writing files 11:15 - 11:45
