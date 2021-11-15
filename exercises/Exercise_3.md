@@ -1,3 +1,4 @@
+Se også i boka under tidy kapittelet hvilke oppgaver som er spredt innimellom
 Exercise 3:
 B)
 - velge kolonner, med navn, ranges, bytte rekkefølger, etc.
