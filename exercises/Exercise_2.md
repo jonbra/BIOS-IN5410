@@ -1,3 +1,5 @@
+Make sure you have installed the `tidyverse` package (`install.packages("tidyverse")` and that it is loaded `library(tidyverse)`).  
+
 Write down the answers to the different questions, or show a screen shot.
 
 A) List the files in the *data* folder. How many files are there? Store the list of files as an object named *files* (add the argument `full.names = TRUE`) to the `list.files` function.
