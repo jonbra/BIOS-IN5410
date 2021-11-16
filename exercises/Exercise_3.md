@@ -1,3 +1,5 @@
+Make sure that the package `dslabs` installed and activated.
+
 Se også i boka under tidy kapittelet hvilke oppgaver som er spredt innimellom
 Exercise 3:
 B)
