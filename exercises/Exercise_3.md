@@ -1,4 +1,4 @@
-Make sure that the packages `tidyverse` and `dslabs` are installed and activated.
+Make sure that `tidyverse` is activated.
 
 A) Use the `select()` function to show only certain columns of the file `data_file_1.csv` that you imported in Exercise 2. 
 - Select only the "Gene" column.
