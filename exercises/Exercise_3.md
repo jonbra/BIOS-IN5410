@@ -13,7 +13,7 @@ B) Use the `filter()` function to select the same data frame by rows.
 - How can you use filter() to show all genes _except_ gene A? (Hint: != is used in R to symbolize "not equal to").
 
 C) The "pipe" 
-- Use `%>%` to combine the output of `select()` and `filter()` to show only the "Gene" and "count" columns and only genes with count >= 50.
+- Use `%>%` to combine the output of `select()` and `filter()` to show *only* the "Gene" and "count" columns and *only* genes with count >= 50.
 
 D) `mutate()` and `group_by()`
 - Create a new column using `mutate()` called "long_genes" which states whether each gene is either longer than 200 or shorter/equal to 200 (hint: you can use "> 200" in the mutate() function. This will give TRUE/FALSE whether a value fulfills the criterium).
