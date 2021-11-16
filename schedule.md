@@ -1,5 +1,13 @@
 Day 1
-- Set up and get started - 09:15-09:30
+09:15-10:00
+- Introduction to R and RStudio
+- Set up and get going
+- Exercise 1?
+
+- R packages and the Tidyverse
+- Rectangular data
+- Working with files
+- 
 - Introduction to R and RStudio - 09:30-10:00 
   (RStudio can also be used as a text editor for plain text files)
   (R system command - remember their Unix lectures?)
