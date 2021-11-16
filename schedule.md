@@ -1,32 +1,30 @@
-Day 1
+NB: Only a rough schedule. We need to be flexible to make sure we are all on board.  
+
+## Day 1
 09:15-10:00
 - Introduction to R and RStudio
 - Set up and get going
-- Exercise 1?
+- Do Exercise 1
 
+10:15 - 12:00
+- Go through Exercise 1
 - R packages and the Tidyverse
-- Rectangular data
+- Rectangular and tidy data
 - Working with files
-- 
-- Introduction to R and RStudio - 09:30-10:00 
-  (RStudio can also be used as a text editor for plain text files)
-  (R system command - remember their Unix lectures?)
-  (R and packages - where can they find packages and help? Show the usual help web sites)
-  (Tidyverse and Bioconductor)
-  (CRAN is the place for most packages - demo in RStudio)
-- Basic exercises / play around / start a new project from their GitHub repo / install tidyverse before brake - 10:15 - 11:00
+- Exercise 2
 
-Reading and writing files 11:15 - 11:45
-- Short lecture
-- Practical
+12:45 - 14:00 
+- Go through Exercise 2
+- Manipulating data with dplyr
+- Exercise 3
 
-Working with tabular data + basic data structures 11:45 - 14:00
-(Read file from here: https://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/index.html)
-(Use dplyr commands to extract columns and talk about the different data types in R)
+14:15 - 16:00
+- Go through Exercise 3
+- Basic plotting
+- Exercise 4
+- Go through exercise 4 together
 
-Simple plots 14:00 - 15:00 (16:00?)
-
-Day 2
+## Day 2
 
 Programming basics
   for loops
