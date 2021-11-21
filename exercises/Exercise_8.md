@@ -1,9 +1,13 @@
-Make the same plots as in Exercise 4, but using ggplot2.
+## Plotting with ggplot2
 
-Make the same scatterplot as in Exercise 4, but use ggplot2 instead of the `plot()` function. Make sure that the data in *data_file_1.csv* is stored as an object and as a tibble.
+Try to make the same plots as in Exercise 4, but using ggplot2.
 
-Basic plotting
+If you're able to generate a plot, then you're done. But great if you would like to also play around by adding axis labels, plot title, colors, changing sizes, etc..
 
-Make a scatterplot showing the relationship between gene length and count in the data located in "data_file_1.csv".
-Make a histogram showing the distribution of gene counts.
-Try to add different values for the "breaks = " argument to the hist() function to increase or decrease the number of bins. How does this change the histogram?
+For the histogram you can try to change the number of bins with the arguments "bins" or "binwidth".  
+
+Try to play around with adding different **themes** - see [here](http://www.sthda.com/english/wiki/ggplot2-themes-and-background-colors-the-3-elements#quick-functions-to-change-plot-themes).  
+
+**Some useful resources:**  
+[ggplot2 reference](https://ggplot2.tidyverse.org/reference/)  
+[R Cookbook](http://www.cookbook-r.com/Graphs/)
