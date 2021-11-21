@@ -27,4 +27,15 @@ You should see the output of the messages when loading tidyverse, the output or 
 ### Part 3
 If you for example want to repeat the commands in *my_second_Rscript.R* on a different data file, or save the pdf with a different file name you have to open and change the script. But it's also possible to pass "arguments" when running the R script that allows you to create a more flexible script that can do different operations every time.
 - Copy *my_second_Rscript.R* to a new file called *my_third_Rscript.R* using the Unix `cp` command.
-
+- Change the commands to this:
+```{r}
+library(tidyverse)
+df <- read_csv("~/BIOS-IN5410_H2021/data/data_file_1.csv")
+# Create the file name
+name <- args[1]
+# Plot gene length vs. count
+pdf(file = name)
+plot(df$length, df$count)
+dev.off()
+```
+If you run the script like this: `Rscript my_third_Rscript.R new_name.pdf`, `args[1]` takes whatever is written after the script name (i.e. the first argument) and passes it as a text string into the object `name`. 
