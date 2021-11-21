@@ -7,9 +7,10 @@ my_files <- list.files()
 print(my_files)
 ```
 - Save the file as *my_first_Rscript.R*
-- Run the script in R by typing `Rscript my_first_Rscript.R`
-- You should see a list of files printed to the screen. Type the `ls` command in the terminal and check that it prints the same files.
-- Congratulations! You have just created your first R script!
+- Run the script in R by typing `Rscript my_first_Rscript.R`  
+ 
+You should see a list of files printed to the screen. Type the `ls` command in the terminal and check that it prints the same files.
+Congratulations! You have just created your first R script!
 
 ### Part 2
 - Create another file called *my_second_Rscript.R* with the contents:
@@ -21,4 +22,9 @@ pdf(file = "gene_length_vs_count.pdf")
 plot(df$length, df$count)
 dev.off()
 ```
-- You should see the output of the messages when loading tidyverse, the output or reading the csv files as well as somehting like "null device 1" (this is from the pdf-plotting). In addition there should now be a new pdf file on Saga. Download it to your local computer and open it.
+You should see the output of the messages when loading tidyverse, the output or reading the csv files as well as somehting like "null device 1" (this is from the pdf-plotting). In addition there should now be a new pdf file on Saga. Download it to your local computer and open it.
+
+### Part 3
+If you for example want to repeat the commands in *my_second_Rscript.R* on a different data file, or save the pdf with a different file name you have to open and change the script. But it's also possible to pass "arguments" when running the R script that allows you to create a more flexible script that can do different operations every time.
+- Copy *my_second_Rscript.R* to a new file called *my_third_Rscript.R* using the Unix `cp` command.
+
