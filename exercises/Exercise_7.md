@@ -1,4 +1,4 @@
-## To this on Saga
+## Do this on Saga
 ### Part 1
 - Type `module load R/4.1.0-foss-2021a`
 - Use your favorite text editor (e.g. Nano or vim) to create a file with the following content:
@@ -21,3 +21,4 @@ pdf(file = "gene_length_vs_count.pdf")
 plot(df$length, df$count)
 dev.off()
 ```
+- You should see the output of the messages when loading tidyverse, the output or reading the csv files as well as somehting like "null device 1" (this is from the pdf-plotting). In addition there should now be a new pdf file on Saga. Download it to your local computer and open it.
