@@ -7,4 +7,4 @@ print(my_files)
 ```
 - Save the file as my_first_script.R
 - Run the script in R by typing `Rscript my_first_script.R`
-- You should see a list of files printed to the screen. Type the `pwd` command in the terminal and check that it prints the same files.
+- You should see a list of files printed to the screen. Type the `ls` command in the terminal and check that it prints the same files.
