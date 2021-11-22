@@ -1,7 +1,7 @@
 ```{r}
 # Usage: Rscript my_fourth_Rscript.R inputfilename.pdf data_file_1.csv
 library(tidyverse)
-args <- commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE) # Capture whatever you write on the command line after the script name
 
 input_file <- args[2]
 # Glue together the file path to the data folder with the name of the outputfile
