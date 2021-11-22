@@ -31,7 +31,7 @@ If you for example want to repeat the commands in *my_second_Rscript.R* on a dif
 - Change the contents to this:
 ```{r}
 library(tidyverse)
-args = commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 df <- read_csv("~/BIOS-IN5410_H2021/data/data_file_1.csv")
 # Create an object that stores the file name
 name <- args[1]
