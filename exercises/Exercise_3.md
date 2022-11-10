@@ -1,4 +1,6 @@
-Make sure that `tidyverse` is activated.
+Make sure that `tidyverse` is activated.  
+
+NB: Remember to check the help menus for the different functions, and search the web.
 
 A) Use the `select()` function to show only certain columns of the file `data_file_1.csv` that you imported in Exercise 2. 
 - Select only the "Gene" column.
