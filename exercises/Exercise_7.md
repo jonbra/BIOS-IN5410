@@ -17,7 +17,7 @@ Congratulations! You have just created your first R script!
 ```{r}
 library(tidyverse)
 setwd("~/")
-df <- read_csv("~/BIOS-IN5410_H2021/data/data_file_1.csv")
+df <- read_csv("~/BIOS-IN5410/data/data_file_1.csv")
 # Plot gene length vs. count
 pdf(file = "gene_length_vs_count.pdf") # This tells R that you want to make a pdf file, and what to call it
 plot(df$length, df$count) # Make the plot
@@ -32,7 +32,7 @@ If you for example want to repeat the commands in *my_second_Rscript.R* on a dif
 ```{r}
 library(tidyverse)
 args <- commandArgs(trailingOnly=TRUE) # This captures whatever you type in the command line
-df <- read_csv("~/BIOS-IN5410_H2021/data/data_file_1.csv")
+df <- read_csv("~/BIOS-IN5410/data/data_file_1.csv")
 # Create an object that stores the file name
 name <- args[1]
 # Plot gene length vs. count
