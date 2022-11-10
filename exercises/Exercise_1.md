@@ -11,7 +11,7 @@ x <- seq(1, n)
 sum(x)
 ```  
 
-Based on the result, what do you think the functions `seq` and `sum` do? (You can use `help`.)
+Based on the result, what do you think the functions `seq` and `sum` do? (You can use `help`. Try also to print out the values of `x`)
 
 a. `sum` creates a list of numbers and `seq` adds them up.  
 b. `seq` creates a list of numbers and `sum` adds them up.  
