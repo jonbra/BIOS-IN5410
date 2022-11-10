@@ -18,6 +18,6 @@ C) The "pipe"
 - Use `%>%` to combine the output of `select()` and `filter()` to show *only* the "Gene" and "count" columns and *only* genes with count >= 50.
 
 D) `mutate()` and `group_by()`
-- Create a new column using `mutate()` called "long_genes" which states whether each gene is either longer than 200 or shorter/equal to 200 (hint: you can use "> 200" in the mutate() function. This will give TRUE/FALSE whether a value fulfills the criterium).
+- Create a new column called "long_genes" using `mutate()`. The column should state whether each gene is either longer than 200 or shorter/equal to 200 (hint: you can use "> 200" in the mutate() function. This will give TRUE/FALSE whether a value fulfills the criterium).
 - Group the genes into two groups whether they are longer than 200 or shorter/equal to 200 using `group_by()` (hint: pipe the output of the previous command into `group_by()`).
 - Calculate the average length of the genes in the two groups using the `summarize()` function (hint: `mean(length)` can be used to calculate the average).
