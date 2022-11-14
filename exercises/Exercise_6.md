@@ -3,7 +3,7 @@ Create a piece of code that loops through the data in the file "data_file_1.csv"
 ```{r}
 for (i in 1:nrow(...)){
   if(df$length[] > 200){
-    print(paste0("...", df$Gene, " is longer than 200"))
+    print(paste0("...", df$Gene[], " is longer than 200"))
   } else{
     ...
     }
