@@ -1,6 +1,6 @@
 ## Do this on Saga
 ### Part 1
-- Type `module load R/4.1.0-foss-2021a`
+- Type `module load R/4.2.1-foss-20212`
 - Use your favorite text editor (e.g. Nano or vim) to create a file with the following content:
 ```{r}
 my_files <- list.files()
