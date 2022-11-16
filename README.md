@@ -17,5 +17,5 @@ When you have everything up and running it should look something like this:
   Here are some nice resources for learning to program with R and RStudio:  
   [Software Carpentry R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/)  
   [R Ladies Sydney RYouWithMe?](https://rladiessydney.org/courses/ryouwithme/)  
-  [R for Data Science](https://r4ds.had.co.nz/index.html)
+  [R for Data Science](https://r4ds.had.co.nz/index.html)  
   [Modern Statistics for Biology](https://web.stanford.edu/class/bios221/book/index.htm)
