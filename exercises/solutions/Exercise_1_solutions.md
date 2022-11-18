@@ -1,5 +1,6 @@
 A) What is the sum of the first 100 positive integers? The formula for the sum of integers 1 through _n_ is _n_(_n_+1)/2. Define _n_ = 100 and then use R to compute the sum of 1 through 100 using the formula. What is the sum?  
 
+**One way to do it:**
 ```
 n <- 100
 n*(n+1)/2 # Notice that you need to enter the "*" (multiplication). n() is interpreted by R as a function
@@ -7,6 +8,7 @@ n*(n+1)/2 # Notice that you need to enter the "*" (multiplication). n() is inter
 
 B) Now use the same formula to compute the sum of the integers from 1 through 1,000.
 
+**One way to do it:**
 ```
 n <- 1000
 n*(n+1)/2 
