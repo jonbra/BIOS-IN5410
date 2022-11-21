@@ -1,4 +1,6 @@
 Basic plotting
+NB: remember to run `library(tidyverse)` and `library(ggplot2)`  
+
 - Make a scatterplot showing the relationship between gene length and count in the data located in "data_file_1.csv". Bonus: Can you change the names of the x and y axes?
 ```{r}
 df1 %>% 
