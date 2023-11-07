@@ -10,7 +10,7 @@ A) Use the `select()` function to show only certain columns of the file `data_fi
 - Can you use select() to drop columns instead of selecting them?
 
 B) Use the `filter()` function to select the same data frame by rows.
-- Show only the row containing information about Gene A.
+- Show only the row containing information about Gene A (Hint: == means "equal to" in R).
 - Which genes are longer than 200? Use filter() to show this. 
 - How can you use filter() to show all genes _except_ gene A? (Hint: != is used in R to symbolize "not equal to").
 
