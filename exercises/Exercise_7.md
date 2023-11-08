@@ -1,4 +1,7 @@
 ## Do this on Saga
+
+First you should clone this GitHub repo. Navigate to your home directory (simply type `cd`) and then type `git clone https://github.com/jonbra/BIOS-IN5410.git`. You can do the exercises in whatever directory you like, for example inside the newly cloned repo.  
+
 ### Part 1
 - Type `module load R/4.2.1-foss-2022a`
 - Use your favorite text editor (e.g. Nano or vim) to create a file with the following content:
