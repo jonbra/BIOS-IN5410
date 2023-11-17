@@ -1,4 +1,4 @@
-Make sure you have installed the `tidyverse` package (`install.packages("tidyverse")` and that it`s loaded `library(tidyverse)`).  
+Make sure you have installed the `tidyverse` package (`install.packages("tidyverse")` and that it\`s loaded `library(tidyverse)`).  
 
 Write down the answers to the different questions, or show a screen shot.   
 
