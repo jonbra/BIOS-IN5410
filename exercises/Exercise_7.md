@@ -1,6 +1,6 @@
-## Do this on Saga
+## Do this on Fox cloud
 
-First you should clone this GitHub repo. Navigate to your home directory (simply type `cd`) and then type `git clone https://github.com/jonbra/BIOS-IN5410.git`. You can do the exercises in whatever directory you like, for example inside the newly cloned repo.  
+First you should clone this GitHub repo, or your personal copy of the repo if you created one. Navigate to your home directory (simply type `cd`) and then type `git clone https://github.com/jonbra/BIOS-IN5410.git` (or the link to your copy). You can do the exercises in whatever directory you like, for example inside the newly cloned repo.  
 
 ### Part 1
 - Type `module load R/4.2.1-foss-2022a`
