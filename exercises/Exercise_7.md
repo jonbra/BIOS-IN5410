@@ -26,16 +26,16 @@ pdf(file = "gene_length_vs_count.pdf") # This tells R that you want to make a pd
 plot(df$length, df$count) # Make the plot
 dev.off() # And save the plot
 ```
-Run the script with `Rscript my_second_Rscript.R`. You should see the output of the messages when loading tidyverse, the output or reading the csv files as well as somehting like "null device 1" (this is from the pdf-plotting). In addition there should now be a new pdf file on Saga. Download it to your local computer and open it.
+Run the script with `Rscript my_second_Rscript.R`. You should see the output of the messages when loading tidyverse, the output or reading the csv files as well as somehting like "null device 1" (this is from the pdf-plotting). In addition there should now be a new pdf file in your home directory (if not, check carefully the filepaths in the R script and compare with your directory structure on Fox). Download the pdf file to your local computer and open it.
 
 ### Part 3
-If you for example want to repeat the commands in *my_second_Rscript.R* on a different data file, or save the pdf with a different file name you have to open and change the script every time. But it's also possible to pass "arguments" when running the R script that allows you to create a more flexible script that can do different operations every time.
+If you for example want to repeat the commands in *my_second_Rscript.R* on a different data file, or save the pdf with a different file name, you have to open and change the script every time. But it's also possible to pass "arguments" when running the R script that allows you to create a more flexible script that can do different operations every time.
 - Copy *my_second_Rscript.R* to a new file called *my_third_Rscript.R* using the Unix `cp` command.
 - Change the contents to this:
 ```{r}
 library(tidyverse)
-args <- commandArgs(trailingOnly=TRUE) # This captures whatever you type in the command line
-df <- read_csv("~/BIOS-IN5410/data/data_file_1.csv")
+args <- commandArgs(trailingOnly=TRUE) # This captures whatever you type on the command line
+df <- read_csv("~/BIOS-IN5410/data/data_file_1.csv") # Make sure the file path is correct
 # Create an object that stores the file name
 name <- args[1]
 # Plot gene length vs. count
