@@ -1,11 +1,25 @@
-A) List the files in the *data* folder. How many files are there? Store the list of files as an object named *files* (add the argument `full.names = TRUE`) to the `list.files` function.
-
+A) Where on your file system is R currently working? (working directory). Use an R function to show this.  
 ```
-files <- list.files(full.names = TRUE)
+getwd()
 ```
 
+B) Change the working directory to the BIOS-IN5410 repo that you downloaded.  
+For example: (NB! Remember to use the tab button when typing file paths!)    
+```
+setwd("C:/Users/jonr/Downloads/BIOS-IN5410")
+```
 
-B) Import the different csv files using the `read_csv` function and store them as different objects. You can read *data_file_1.csv* by indexing the first element of the list of filenames in *files* like this `read_csv(files[1])` (the [1] tells R to get the first element of the *vector* of file names that are stored in *files*).
+C) List the files in the data folder. How many files are there?  
+```
+list.files("data/")
+```
+
+D) Make a list of only the csv files and store the list of files as an object named files (store full file paths by adding the argument full.names = TRUE to the list.files function).
+```
+files <- list.files("data/", pattern = ".csv", full.names = TRUE)
+```
+
+E) Import the different csv files using the `read_csv` function and store them as different objects. You can read *data_file_1.csv* by indexing the first element of the list of filenames in *files* like this `read_csv(files[1])` (the [1] tells R to get the first element of the *vector* of file names that are stored in *files*).
 ```
 df1 <- read_csv(files[1]) # The square brackets allows us to access a specific element of the files object. In this case element one (the first filename).
 ```
