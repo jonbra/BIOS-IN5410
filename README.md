@@ -18,4 +18,5 @@ When you have everything up and running it should look something like this:
   [Software Carpentry R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/)  
   [R Ladies Sydney RYouWithMe?](https://rladiessydney.org/courses/ryouwithme/)  
   [R for Data Science](https://r4ds.hadley.nz/)  
-  [Modern Statistics for Modern Biology](https://web.stanford.edu/class/bios221/book/)
+  [Modern Statistics for Modern Biology](https://web.stanford.edu/class/bios221/book/)  
+  (Introduction to Data Science)[https://rafalab.dfci.harvard.edu/dsbook-part-1/]
