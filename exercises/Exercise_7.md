@@ -19,7 +19,7 @@ Congratulations! You have just created your first R script!
 - Create another file called *my_second_Rscript.R* with the contents:
 ```{r}
 library(tidyverse)
-setwd("~/")
+# NB! We assume here that you cloned the GitHub repo to your home directory
 df <- read_csv("~/BIOS-IN5410/data/data_file_1.csv")
 # Plot gene length vs. count
 pdf(file = "gene_length_vs_count.pdf") # This tells R that you want to make a pdf file, and what to call it
