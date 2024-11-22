@@ -1,6 +1,6 @@
 ## Do this on Fox cloud
 
-First you should clone this GitHub repo, or your personal copy of the repo if you created one (NB: if the `git` command does not work you have to activate the software first by typing `git/2.45.1-GCCcore-13.3.0`). Navigate to your home directory (simply type `cd`) and then type `git clone https://github.com/jonbra/BIOS-IN5410.git` (or the link to your copy). Then navigate inside the `BIOS-IN5410` directory and do the exercise from there. If you can't use Git then you need to make sure to get the data files onto the server some other way (using `scp` for instance).  
+First you should clone this GitHub repo, or your personal copy of the repo if you created one (NB: if the `git` command does not work you have to activate the software first by typing `module load git/2.45.1-GCCcore-13.3.0`). Navigate to your home directory (simply type `cd`) and then type `git clone https://github.com/jonbra/BIOS-IN5410.git` (or the link to your copy). Then navigate inside the `BIOS-IN5410` directory and do the exercise from there. If you can't use Git then you need to make sure to get the data files onto the server some other way (using `scp` for instance).  
 
 ### Part 1
 - Type `module load R/4.2.1-foss-2022a`
